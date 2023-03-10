@@ -13,8 +13,9 @@ import java.util.List;
 @Location("https://www.google.com")
 public class Google {
 
-    @Drone
-    private WebDriver driver;
+    // No initialization here since we are passing the BrowserThrough base test
+//    @Drone
+//    private WebDriver driver;
 
     @FindBy(name = "q")
     private WebElement searchBox;

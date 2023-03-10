@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <arquillian xmlns="http://jboss.com/arquillian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jboss.org/schema/arquillian http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
-    <extension qualifier="webdriver">
+    <extension qualifier="webdriver-browser1">
         <property name="browser">browserstack</property>
-        <property name="username">*****</property>
-        <property name="access.key">*****</property>
+        <property name="username">***</property>
+        <property name="access.key">***</property>
         <property name="browserName">android</property>
         <property name="platform">ANDROID</property>
         <property name="device">Samsung Galaxy S8</property>
+        <property name="browserstack.debug">true</property>
+    </extension>
+    <extension qualifier="webdriver-browser2">
+        <property name="browser">browserstack</property>
+        <property name="username">***</property>
+        <property name="access.key">***</property>
+        <property name="browserName">android</property>
+        <property name="platform">ANDROID</property>
+        <property name="device">Samsung Galaxy S9</property>
+        <property name="browserstack.debug">true</property>
+    </extension>
+    <extension qualifier="webdriver-browser3">
+        <property name="browser">browserstack</property>
+        <property name="username">***</property>
+        <property name="access.key">***</property>
+        <property name="browserName">android</property>
+        <property name="platform">ANDROID</property>
+        <property name="device">Samsung Galaxy S21</property>
+        <property name="browserstack.debug">true</property>
+    </extension>
+    <extension qualifier="webdriver-browser4">
+        <property name="browser">browserstack</property>
+        <property name="username">***</property>
+        <property name="access.key">***</property>
+        <property name="browserName">android</property>
+        <property name="platform">ANDROID</property>
+        <property name="device">Samsung Galaxy S22</property>
         <property name="browserstack.debug">true</property>
     </extension>
 </arquillian>
